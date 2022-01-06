@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+~/stop
+~/wipe-ledger
+rm -r ~/logs
+cp -r ~/identity ~/identity-old
+rm ~/identity/*
